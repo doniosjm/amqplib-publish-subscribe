@@ -1,6 +1,6 @@
 const amqp = require("amqplib");
 const amqpTopology = require("amqplib-topology");
-const PubSub = require("../pubsub.js");
+const PubSub = require("../lib/pubsub.js");
 const amqpEndpoint = "amqp://localhost:5672";
 
 /**
