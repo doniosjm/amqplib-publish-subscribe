@@ -45,7 +45,7 @@ Enable/disable console output
 
 Used to identify console output when debug is enabled
  
- ### `endpoint`
+### `endpoint`
  
 AMQP server endpoint
 
