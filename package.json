@@ -1,5 +1,5 @@
 {
-  "name": "amqplib-pubsub",
+  "name": "amqplib-publish-subscibe",
   "version": "0.0.1",
   "description": "Simplified API for Pub/Sub with amqplib (e.g. RabbitMQ)",
   "main": "/lib/pubsub.js",
@@ -23,6 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/doniosjm/amqplib-pubsub.git"
+    "url": "git+https://github.com/doniosjm/amqplib-publish-subscribe.git"
   }
 }

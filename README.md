@@ -1,4 +1,4 @@
-# amqplib-pubsub
+# amqplib-publish-subscribe
 Simplified API for Pub/Sub with amqplib (e.g. RabbitMQ)
 
 ## Dependencies
