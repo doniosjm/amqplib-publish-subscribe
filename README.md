@@ -13,13 +13,13 @@ var pubSub = new PubSub(options);
 // connect
 pubSub.connect('My Pub/Sub', function(err, pubSub){
         
-        // Asserts a temporary, exclusive queue and creates a binding to receive fanout exchange messages
-        pubSub.subscribeToFanout({}, 'amqp.fanout', '', function(msg, cb){
-            // do work
-            cb(true); // ack the message
-        });
-         
+    // Asserts a temporary, exclusive queue and creates a binding to receive fanout exchange messages
+    pubSub.subscribeToFanout({}, 'amqp.fanout', '', function(msg, cb){
+        // do work
+        cb(true); // ack the message
     });
+     
+});
  
 // publish
 var count = 1;
